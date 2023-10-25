@@ -1,6 +1,7 @@
-header {
+.navbar {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    position: sticky;
 }
 
 body {
@@ -14,6 +15,9 @@ footer {
     background-color: #22668D;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .sucursales {
