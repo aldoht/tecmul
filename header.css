@@ -22,13 +22,19 @@ footer {
 
 .sucursales {
     display: inline-block;
-    width: 50%;
+    width: 33%;
     text-align: center;
 }
 
 .soporte {
     display: inline-block;
-    width: 49.5%;
+    width: 33%;
+    text-align: center;
+}
+
+.redes {
+    display: inline-block;
+    width: 33%;
     text-align: center;
 }
 
@@ -45,4 +51,14 @@ div > small {
 
 .soporte > span {
     font-weight: 400;
+}
+
+.redes > span {
+    font-weight: 400;
+}
+
+.iconos-redes img {
+    height: 40px;
+    width: 40px;
+    margin: 0px 10%;
 }
