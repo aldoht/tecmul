@@ -1,0 +1,15 @@
+footer {
+    background-color: #22668D;
+}
+
+footer > p {
+    display: inline-block;
+}
+
+.sucursales {
+    display: inline-block;
+}
+
+.soporte {
+    display: inline-block;
+}
