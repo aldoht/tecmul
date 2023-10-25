@@ -1,0 +1,4 @@
+Guia de fuentes
+Header: Roboto (Regular 400)
+Cuerpo: Ubuntu (Light 300 para texto normal y Regular 400 para encabezados
+Footer: Montserrat (Regular 400 para texto y Bold 700 para encabezados)

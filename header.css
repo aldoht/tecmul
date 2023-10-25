@@ -1,0 +1,44 @@
+header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+footer {
+    margin: 0px;
+    background-color: #22668D;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.sucursales {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+.soporte {
+    display: inline-block;
+    width: 49.5%;
+    text-align: center;
+}
+
+div > small {
+    display: inline-block;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+}
+
+.sucursales > ul {
+    font-weight: 400;
+}
+
+.soporte > span {
+    font-weight: 400;
+}
