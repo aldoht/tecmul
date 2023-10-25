@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+}
+
+footer {
+    margin: 0px;
+    background-color: #22668D;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sucursales {
+    display: inline-block;
+}
+
+.soporte {
+    display: inline-block;
+}
