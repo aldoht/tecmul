@@ -1,11 +1,14 @@
 .navbar {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    position: sticky;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
 }
 
 header {
+    position: fixed;
     font-weight: 700;
     margin: 0px;
     bottom: 0;
@@ -13,6 +16,7 @@ header {
 }
 
 body {
+    padding: 0;
     margin: 0px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
@@ -24,7 +28,7 @@ footer {
     background-color: #F9DC5C;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    position: fixed;
+    position: static;
     bottom: 0;
     width: 100%;
 }
@@ -84,10 +88,27 @@ footer {
     line-height: 2rem;
     text-align: center;
 }
+
 .nav-links .nav-item:last-child {
     margin-right: 1rem;
 }
 
+.content {
+    background-color: #FFF1D2;
+}
+
+.box-content {
+    background-color: #EEEEEE;
+    padding-bottom: 100%;
+    display: block;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+
+main {
+    display: block;
+}
 
 p, li, a {
     color: #403F4C;
@@ -98,6 +119,7 @@ p, li, a {
 }
 
 .sucursales, .soporte, .redes{
+    border-top: 1px solid #a3990c;
     display: inline-block;
     flex: 1;
     height: 160px;
