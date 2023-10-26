@@ -4,15 +4,20 @@
     position: sticky;
 }
 
+header {
+    color: #F9DC5C;
+}
+
 body {
     margin: 0px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
+    background-color: #EEEEEE;
 }
 
 footer {
     margin: 0px;
-    background-color: #22668D;
+    background-color: #F9DC5C;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     position: fixed;
@@ -20,22 +25,15 @@ footer {
     width: 100%;
 }
 
-.sucursales {
-    display: inline-block;
-    width: 33%;
-    text-align: center;
+p, li, a {
+    color: #403F4C;
 }
 
-.soporte {
+.sucursales, .soporte, .redes{
     display: inline-block;
     width: 33%;
     text-align: center;
-}
-
-.redes {
-    display: inline-block;
-    width: 33%;
-    text-align: center;
+    vertical-align: middle;
 }
 
 div > small {
@@ -43,6 +41,7 @@ div > small {
     font-weight: 400;
     width: 100%;
     text-align: center;
+    margin: 10px 0px;
 }
 
 .sucursales > ul {
