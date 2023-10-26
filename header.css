@@ -1,0 +1,64 @@
+.navbar {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: sticky;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+footer {
+    margin: 0px;
+    background-color: #22668D;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.sucursales {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.soporte {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.redes {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+div > small {
+    display: inline-block;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+}
+
+.sucursales > ul {
+    font-weight: 400;
+}
+
+.soporte > span {
+    font-weight: 400;
+}
+
+.redes > span {
+    font-weight: 400;
+}
+
+.iconos-redes img {
+    height: 40px;
+    width: 40px;
+    margin: 0px 10%;
+}
