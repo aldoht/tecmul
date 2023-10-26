@@ -29,11 +29,18 @@ p, li, a {
     color: #403F4C;
 }
 
+.footer-container {
+    display: flex;
+}
+
 .sucursales, .soporte, .redes{
     display: inline-block;
-    width: 33%;
+    flex: 1;
+    height: 160px;
     text-align: center;
-    vertical-align: middle;
+}
+.soporte > p, .redes > p {
+    padding: 17px 0;
 }
 
 div > small {
