@@ -43,8 +43,19 @@ footer {
     border-bottom: 1px solid #a3990c;
 }
 
-.navbar a, .navbar span {
+.navbar a{
     display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar .site-logo {
+    padding-right: 2rem;
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    white-space: nowrap;
+    left: 3rem;
 }
 
 .navbar .links {
@@ -82,17 +93,18 @@ p, li, a {
     color: #403F4C;
 }
 
-a {
-    font-weight: 500;
-    text-decoration: none;
-    color: #100000;
+.footer-container {
+    display: flex;
 }
 
 .sucursales, .soporte, .redes{
     display: inline-block;
-    width: 33%;
+    flex: 1;
+    height: 160px;
     text-align: center;
-    vertical-align: middle;
+}
+.soporte > p, .redes > p {
+    padding: 17px 0;
 }
 
 div > small {
