@@ -1,0 +1,12 @@
+.center-div {
+    height: 9vh;
+}
+
+.textcentro {
+    text-align: center;
+    font-size: 3em; 
+    font-weight: 700;
+    background: linear-gradient(yellow, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
