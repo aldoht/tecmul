@@ -13,6 +13,7 @@ header {
     margin: 0px;
     bottom: 0;
     display: flex;
+
 }
 
 body {
@@ -109,6 +110,31 @@ footer {
 main {
     display: block;
 }
+
+/*Noticias*/
+.container-noticias{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.noticias{
+    border-radius: 10px;
+}
+
+.info-noticias{
+    padding: 0px 60px 100px;
+}
+
+.noticias img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+
+
 
 p, li, a {
     color: #403F4C;
