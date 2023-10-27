@@ -1,12 +1,82 @@
+figure {
+    margin-block-start: 3rem;
+    margin-block-end: 0.6rem;
+    margin-inline-start: 2rem;
+    margin-inline-end: 2rem;
+    height: min-content;
+}
+
+figure > figcaption {
+    background-color: #DDDDDD;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
 .center-div {
-    height: 9vh;
+    height: calc(min-content + 10px);
 }
 
 .textcentro {
     text-align: center;
     font-size: 3em; 
     font-weight: 700;
-    background: linear-gradient(yellow, red);
+    background: linear-gradient(#ffbf00, #ffa700);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal {
+    flex: 1;
+}
+
+.img1 {
+    height: 18rem;
+    width: 32rem;
+}
+
+figure > .img1 {
+    float: left;
+    padding-right: 3%;
+}
+
+figure > .img2 {
+    float: right;
+    padding-left: 3%;
+}
+
+.fig1 {
+    float: left;
+}
+
+.fig2 {
+    float: right;
+}
+
+.img2 {
+    height: 25rem;
+    width: 25rem;
+}
+
+.principal h2 {
+    margin-top: 3rem;
+}
+
+.info-noticias {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: calc(100% - 4rem);
+}
+
+.info-noticias > p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    max-width: 1216px;
+    text-align: justify;
 }

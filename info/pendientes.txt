@@ -1,3 +1,2 @@
 PENDIENTES:
--Terminar header
--Cambiar colores
+-ARREGLAR CUADRITO POR LADO ENTRE CONTENT Y FOOTER
