@@ -1,9 +1,15 @@
+.main-container {
+    display: flex;
+    width: 100%;
+}
+
 .content {
     height: fit-content;
 }
 
 aside {
     display: block;
+    float: left;
 }
 
 .sidebar li {
@@ -12,10 +18,9 @@ aside {
     border-bottom: 2px solid #eaecef;
 }
 
-
 .sidebar {
     font-size: 20px;
-    width: 16.4rem;
+    flex: 0.8;
     background-color: #8ECDDD;
     position: static;
     z-index: 15;
@@ -44,4 +49,47 @@ aside {
 
 .sidebar span {
     display: inline-block;
+}
+
+.catalog-container {
+    flex: 1.8;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-gap: 3rem;
+    width: auto;
+    height: 100%;
+    padding: 3rem 4rem;
+}
+
+.item {
+    position: relative;
+    border-radius: 25px;
+    width: fit-content;
+}
+
+.item figure {
+    height: 100%;
+    margin: 0;
+}
+
+.item img {
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.item figcaption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(192, 183, 189, 0.527);
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.item figure a:hover + figcaption {
+    opacity: 1;
 }
