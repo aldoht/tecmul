@@ -56,11 +56,9 @@ p, li, a {
 }
 
 .navbar .site-logo {
-    padding-right: 2rem;
     box-sizing: border-box;
     position: absolute;
     display: flex;
-    white-space: nowrap;
     left: 3rem;
 }
 
@@ -88,7 +86,6 @@ p, li, a {
     display: inline-block;
     margin-left: 3.5rem;
     line-height: 2rem;
-    text-align: center;
 }
 
 .nav-links .nav-item:last-child {
@@ -97,7 +94,7 @@ p, li, a {
 
 .content {
     background-color: #FFF1D2;
-    margin-bottom: 3rem;
+    min-height: 100vh;
 }
 
 .box-content {
@@ -106,6 +103,8 @@ p, li, a {
     padding: 0;
     margin-left: 4rem;
     margin-right: 4rem;
+    margin-top: 5rem;
+    min-height: 100vh;
 }
 
 .footer-container {

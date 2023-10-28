@@ -1,3 +1,47 @@
 .content {
     height: fit-content;
 }
+
+aside {
+    display: block;
+}
+
+.sidebar li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    border-bottom: 2px solid #eaecef;
+}
+
+
+.sidebar {
+    font-size: 20px;
+    width: 16.4rem;
+    background-color: #8ECDDD;
+    position: static;
+    z-index: 15;
+    border-radius: 0 10% 10% 0;
+    left: 4rem;
+    box-sizing: border-box;
+    border-right: 1px solid #eaecef;
+    overflow-y: auto;
+    min-height: 100vh;
+}
+
+.sidebar ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.sidebar > .catalog > li > span.item-name {
+    font-size: 1.1em;
+    line-height: 1.7;
+    font-weight: 700;
+}
+
+.sidebar > .catalog {
+    padding: 1.5rem 1.5rem;
+}
+
+.sidebar span {
+    display: inline-block;
+}
