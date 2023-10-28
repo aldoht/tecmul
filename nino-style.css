@@ -3,10 +3,6 @@
     width: 100%;
 }
 
-.content {
-    height: fit-content;
-}
-
 aside {
     display: block;
     float: left;
@@ -29,7 +25,6 @@ aside {
     box-sizing: border-box;
     border-right: 1px solid #eaecef;
     overflow-y: auto;
-    min-height: 100vh;
 }
 
 .sidebar ul {

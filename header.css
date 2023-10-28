@@ -94,7 +94,6 @@ p, li, a {
 
 .content {
     background-color: #FFF1D2;
-    min-height: 100vh;
 }
 
 .box-content {
@@ -104,7 +103,6 @@ p, li, a {
     margin-left: 4rem;
     margin-right: 4rem;
     margin-top: 5rem;
-    min-height: 100vh;
 }
 
 .footer-container {
