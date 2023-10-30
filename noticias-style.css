@@ -2,11 +2,6 @@ body {
     background-color: #FFFADD;
 }
 
-footer {
-    position: fixed !important;
-    bottom: 0;
-}
-
 .container-noticias{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -26,4 +21,11 @@ footer {
     height: 400px;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
+}
+
+@media (max-width: 450px) {
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
 }
