@@ -16,7 +16,7 @@ aside {
 
 .sidebar {
     font-size: 20px;
-    flex: 0.8;
+    width: 16.4rem;
     background-color: #8ECDDD;
     position: static;
     z-index: 15;
