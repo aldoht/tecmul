@@ -1,0 +1,32 @@
+.registro{
+    width: 400px;
+    background-color: azure;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    box-shadow: 7px 13px 35px #000;
+}
+
+.datos{
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    margin-right: 20px;
+}
+
+.registro h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.registro .buton{
+    width: 95.5%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
