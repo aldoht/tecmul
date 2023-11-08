@@ -109,12 +109,11 @@ p, li, a {
 .footer-container {
     display: flex;
 }
-
+  
 .sucursales, .soporte, .redes{
     border-top: 1px solid #a3990c;
     display: inline-block;
     flex: 1;
-    height: 160px;
     text-align: center;
 }
 .soporte > p, .redes > p {
@@ -131,6 +130,11 @@ div > small {
 
 .sucursales > ul {
     font-weight: 400;
+    list-style-type: none;
+}
+
+.sucursales > ul > p {
+    font-weight: 700;
 }
 
 .soporte > span {
