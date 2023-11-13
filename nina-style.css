@@ -24,7 +24,6 @@ aside {
     border-radius: 0 10% 10% 0;
     box-sizing: border-box;
     border-right: 1px solid #eaecef;
-    overflow-y: auto;
     height: fit-content;
 }
 
